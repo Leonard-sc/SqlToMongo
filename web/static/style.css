@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.select_bar select{
+    position: relative;
+    left:20%;
+}
+.transform_bar{
+    clear:both;
+    padding: 20px 0 0 0;
+}
+.transform_bar>div,.transform_bar>button{
+    position: relative;
+    left:20%;
+}
+textarea{
+    resize: none;
+}
+
+#sql_side,#mongo_side{
+    height: 230px;
+    width: 310px;
+    float:left
+}
+#input_sql{
+    float:left;
+}
+#input_sql textarea{
+    height: 200px;
+    width: 300px;
+}
+#transform_btn{
+    float: left;
+    margin: 20px;
+}
+#show_mongo{
+    float: left;
+}
+#show_mongo textarea{
+    height: 200px;
+    width: 300px;
+}
+.error_bar{
+    clear: both;
+    padding-top: 20px;
+}
+#error_area{    
+    height: 200px;
+    width: 700px;
+    position: relative;
+    left:20%;
+}
